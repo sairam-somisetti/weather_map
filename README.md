@@ -14,12 +14,8 @@
 - API key is hardcoded (security concern for production)
 
 ## README.md
-
-```markdown
 # Weather Application
-
 A Python-based weather application that fetches current weather data from OpenWeatherMap API and logs it to a local SQLite database.
-
 ## Features
 
 - Fetch real-time weather data for any city worldwide
@@ -29,14 +25,11 @@ A Python-based weather application that fetches current weather data from OpenWe
 - Error handling for invalid city names and API issues
 
 ## Project Structure
-
-```
 weather_app/
 ├── weather_app.py      # Main application and user interface
 ├── weather_fetcher.py  # API communication module
 ├── weather_logger.py   # Database logging module
 └── weather_log.db      # SQLite database (created automatically)
-```
 
 ## Requirements
 
@@ -61,7 +54,6 @@ weather_app/
    Replace the hardcoded API key in `weather_app.py`:
    ```python
    API_KEY = "your_actual_api_key_here"
-   ```
 
 2. **Run the application**:
    ```bash
