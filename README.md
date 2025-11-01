@@ -110,11 +110,8 @@ Enter city name (or 'exit' to quit): exit
 Exiting application.
 ```
 ## Screenshots
-
-img width="1914" height="1009" alt="Image" src="https://github.com/user-attachments/assets/87ba1887-acd2-4c5d-b4a3-41abf6fc3d2d" />
-
 <img width="1910" height="991" alt="Image" src="https://github.com/user-attachments/assets/5737b5ab-fbb0-42ec-8d6f-7f7356a74717" />
-
+img width="1914" height="1009" alt="Image" src="https://github.com/user-attachments/assets/87ba1887-acd2-4c5d-b4a3-41abf6fc3d2d" />
 ## Error Handling
 
 - Invalid city names display friendly error messages
