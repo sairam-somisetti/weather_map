@@ -1,4 +1,8 @@
-# file consists of weather_app.py where actual code is present to run the application
+# Name of the project: weather_fetcher and data logger
+# Author of the application: SGVNP SAIRAM
+# The Weather Application is a Python-based command-line tool that fetches real-time weather data for user-specified cities using the OpenWeatherMap API. The application displays weather information and logs the data for persistent storage.
+
+#  this file consists of weather_app.py where actual code is present to run the application
 from weather_fetcher import WeatherFetcher
 from weather_logger import WeatherLogger
 
