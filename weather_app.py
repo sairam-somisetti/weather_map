@@ -31,4 +31,5 @@ if __name__ == "__main__":
     API_KEY = "5ffc534ea4451b258d5f7ee41d5a2c8f"
     #create and run the weather application 
     app = WeatherApp(API_KEY)
+
     app.run()
