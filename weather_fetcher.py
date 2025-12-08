@@ -1,4 +1,5 @@
-#  file about the weather_fetcher.py
+# The WeatherFetcher class is responsible for handling all communication with the OpenWeatherMap API. It manages API requests, processes responses, and converts raw weather data into a structured format for the main application.
+#   this file about the weather_fetcher.py
 import requests
 
 class WeatherFetcher:
@@ -36,4 +37,5 @@ class WeatherFetcher:
         except Exception as e:
             # handling un expected errors
             print("Error:", e)
+
             return None
