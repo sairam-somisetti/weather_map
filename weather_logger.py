@@ -1,4 +1,5 @@
-# file  consists of weather_logger.py
+# The WeatherLogger class is responsible for persisting weather data to storage, managing historical records, and providing data retrieval capabilities. It handles the storage of weather information fetched by the WeatherFetcher for future reference and analysis.
+#  this file  consists of weather_logger.py
 import sqlite3
 from datetime import datetime
 
@@ -35,4 +36,5 @@ class WeatherLogger:
                 weather_data["humidity"],
                 weather_data["condition"],
                 datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
             ))
